@@ -370,7 +370,6 @@ function M.openSubstitutionPopup()
 	})
 	local win = state.popupWinNr
 	vim.wo[win].list = true
-	vim.wo[win].listchars = "multispace:·,trail:·,lead:·,tab:▸▸,precedes:…,extends:…"
 	vim.wo[win].signcolumn = "no"
 	vim.wo[win].statuscolumn = " " -- padding
 	vim.wo[win].scrolloff = 0
